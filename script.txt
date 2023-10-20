@@ -3,3 +3,8 @@ Creates a new empty repository in your selected file
  
  
 By selecting the hidden items in the view menu, we can then view the .git file (we shouldn’t mess with the insides of the folder)
+
+Git status
+This gives us the current status of the working area (repository)
+Such as if there has been a commit, what files are currently in the folder with the repository etc.
+The command also shows the files in red, which as displayed in the git bash line, can be made „green“ by using (git add)
