@@ -33,3 +33,7 @@ Git remote add (name) (url)
 Creates a new remote repository 
 Git remote rm (name)
 Delets a remote repository (online)
+
+Git branch (branch_name) – Creates a new branch in the local repository 
+Git branch shows all the current branches in the working repository
+Git branch -m (branch_name) – Deletes a branch 
