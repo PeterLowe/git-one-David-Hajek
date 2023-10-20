@@ -37,7 +37,10 @@ Delets a remote repository (online)
 Git branch (branch_name) – Creates a new branch in the local repository 
 Git branch shows all the current branches in the working repository
 Git branch -m (branch_name) – Deletes a branch 
+<<<<<<< HEAD
 
 Git checkout
 Switches the current working directory (which was master) to a different branch (in this case the branch called showcase I created earlier) 
 The command can be repeated to go back to the master branch again.
+=======
+>>>>>>> master
