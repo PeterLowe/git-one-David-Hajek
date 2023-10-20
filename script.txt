@@ -55,3 +55,8 @@ Git log –stat shows files that have been altered and changed
 =======
 >>>>>>> master
 >>>>>>> showcase
+Git merge (branch name)
+Merges the main repository with the branch that you want to merge it with
+  
+It may appear as an error, but it can be fixed with updating the files.
+
