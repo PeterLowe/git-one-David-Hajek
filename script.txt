@@ -37,12 +37,21 @@ Delets a remote repository (online)
 Git branch (branch_name) – Creates a new branch in the local repository 
 Git branch shows all the current branches in the working repository
 Git branch -m (branch_name) – Deletes a branch 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> showcase
 
 Git checkout
 Switches the current working directory (which was master) to a different branch (in this case the branch called showcase I created earlier) 
 The command can be repeated to go back to the master branch again.
+<<<<<<< HEAD
 
 Git log 
 Showcases our entire commit history – can be navigated with (space) to move pages and with (q) to quit the log 
 Git log –graph  will show the branches paths 
 Git log –stat shows files that have been altered and changed 
+=======
+=======
+>>>>>>> master
+>>>>>>> showcase
