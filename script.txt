@@ -8,3 +8,15 @@ Git status
 This gives us the current status of the working area (repository)
 Such as if there has been a commit, what files are currently in the folder with the repository etc.
 The command also shows the files in red, which as displayed in the git bash line, can be made „green“ by using (git add)
+
+Git add
+Git add on its own, doesnt seem to do anything spectacular, however once we 
+type the git status command again, we can see that all the files that were previously red, have turned green – meaning we can now push and commit. 
+ 
+If we however changed a file after adding it, the git status command will show us that the file has been modified and needs to be added again. 
+
+Git commit (-m „your text“)
+The command will create a point of revision in your local repository (basically a save)
+you commit to the work you have done and (save) it. 
+The -m „your text“ basically gives the save a name, giving us a easy to acess „Point in time“ to come back to, if we didn’t name them, we would have to guess and check what the commit did at the time. 
+We can also see the commit history online by clicking the commit buttons with a clock icon
