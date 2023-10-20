@@ -20,3 +20,24 @@ The command will create a point of revision in your local repository (basically 
 you commit to the work you have done and (save) it. 
 The -m „your text“ basically gives the save a name, giving us a easy to acess „Point in time“ to come back to, if we didn’t name them, we would have to guess and check what the commit did at the time. 
 We can also see the commit history online by clicking the commit buttons with a clock icon
+
+Git push -u origin (name of the defaut branch, master in this case)
+The name of the file can be found in the cyan color after the colorful string of text 
+Git push updates the remote node with our current node that we are working on
+Git push -u origin (name)
+Pushes the local master to the on server origin (online)	
+
+Git remote (-v)
+Git remote lists all the repositorys on the remote server 
+Git remote add (name) (url)
+Creates a new remote repository 
+Git remote rm (name)
+Delets a remote repository (online)
+
+Git branch (branch_name) – Creates a new branch in the local repository 
+Git branch shows all the current branches in the working repository
+Git branch -m (branch_name) – Deletes a branch 
+
+Git checkout
+Switches the current working directory (which was master) to a different branch (in this case the branch called showcase I created earlier) 
+The command can be repeated to go back to the master branch again.
