@@ -1,0 +1,5 @@
+Init
+Creates a new empty repository in your selected file
+ 
+ 
+By selecting the hidden items in the view menu, we can then view the .git file (we shouldn’t mess with the insides of the folder)
